@@ -1,0 +1,133 @@
+main > .container {
+    padding: 70px 15px 20px;
+    margin-top: 50px;
+}
+
+.logon  {
+    width: 4rem;
+}
+
+@font-face {
+    font-family: 'PressStart2P-Regular';
+    src: url('/fonts/PressStart2P-Regular.ttf') format('truetype');
+font-weight: normal;
+    font-style: normal;
+}
+
+
+.logon-text {
+    font-family: 'PressStart2P-Regular';
+    color: #d9008d;
+}
+
+body {
+     padding-top: 50px;
+    background-color: rgb(130, 209, 193);
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px black;
+    margin-bottom: 20px;
+}
+
+.btn,
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(217, 0, 141);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 50, 171);
+}
+
+
+#footer {
+    background: #333;
+    color: white;
+}
+
+#footer .text-muted {
+    color: #aaa;
+}
+
+
+/* Навбар - минимальная высота */
+.navbar {
+    height: 110px;
+    padding: 0 20px;
+    background-color: #333 !important;
+
+}
+
+/* Логотип и название - выравнивание по центру */
+.navbar-brand {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Ссылки в навбаре белого цвета */
+.navbar a {
+    color: #333;
+}
+
+/* При наведении - розовый цвет */
+.navbar a:hover {
+    color: rgb(217, 0, 141);
+}
+
+.form-control:focus {
+    border-color: rgb(217, 0, 141);
+}
+
+.card {
+    border: 1px solid rgb(130, 209, 193);
+    border-top: 3px solid rgb(217, 0, 141);
+}
+
+
+.table thead th {
+    background-color: rgba(130, 209, 193, 0.3);
+    border-bottom: 2px solid rgb(217, 0, 141);
+}
+
+.error {
+    color: rgb(217, 0, 141);
+    background-color: rgba(217, 0, 141, 0.1);
+}
+
+.btn-primary {
+    background-color: rgb(217, 0, 141);
+    color: white;
+    border-radius: 11px;
+    padding: 11px;
+    margin: 20px 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 50, 171);
+    color: #333;
+}
+
+
+/* Для телефонов */
+@media (max-width: 768px) {
+    .container { padding: 10px; margin: 5px; }
+    .navbar { padding: 0 10px; }
+    .logon { width: 3rem; }
+    .btn { width: 100%; }
+}
